@@ -135,6 +135,8 @@ a {
     border-radius: 5px;
     float: left;
     margin-right: 20px;
+    width: 234px;
+    height: 234px;
 }
 .gameTitle{
     float:bottom;
