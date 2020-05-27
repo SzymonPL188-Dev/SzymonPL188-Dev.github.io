@@ -1,0 +1,194 @@
+body {
+    background-color: #591c1e;
+    font-family: 'Press Start 2P', cursive;
+    color:white;
+    user-select: none;
+    display: inline;
+}
+#banner {
+    width: 750px;
+    height: 80px;
+    margin:20px;
+    float:down;
+    transition: ease-in-out 0.3s;
+    
+}
+footer {
+    margin: 30px;
+}
+#header {
+    background-color: #ff3539;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    transition: ease-in-out 0.3s;
+    border-bottom: ridge 5px black;
+    margin-top: -1410px;
+}
+.footer {
+    background-color: #9b2527;
+    width: 100%;
+    transition: ease-in-out 0.3s;
+    border-top: ridge 5px black;
+    height: 200px;
+    position: absolute;
+    top: 200%;
+}
+#beginBtn {
+    margin-left: -760px;
+}
+.topBtn {
+    font-size: 20px;
+    margin-top:50px;
+    margin-left: 20px;
+    transition: ease-in-out 0.1s;
+    color:white;
+    text-decoration: none;
+}
+.topBtn:hover {
+    color: #707070;
+    cursor: pointer;
+}
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color:#FF3B2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float:down;
+}
+.loadins {
+    float: right;
+}
+ #title {
+     width: 90%;
+     height: 50%;
+     margin-left: 5%;
+     margin-top: 200px;
+     text-align: center;
+     padding-bottom: 100px;
+     padding-top:100px;
+     background-image: url(title.png);
+     -webkit-filter: grayscale(100%);
+     filter: grayscale(100%);
+     border: solid 5px black;
+ }
+ .centered {
+     display:flex;
+     justify-content: center;
+ }
+ .loginContainer {
+     padding: 20px;
+     width: 90%;
+     text-align: center;
+     border:black 5px solid;
+     background:#9b2527;
+     padding-bottom: 40px;
+     margin-top: 20px;
+ }
+ .loginContainer h2 {
+    font-size:50px;
+ }
+ .loginContainer h3 {
+    font-size:25px;
+    margin-top: 50px;
+ }
+ .loginContainer input {
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background: #591c1e;
+    border: solid 5px black;
+    color:white;
+ }
+ .loginContainer textarea {
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background: #591c1e;
+    border: solid 5px black;
+    color:white;
+ }
+ .loginContainer button {
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background: #591c1e;
+    border: solid 5px black;
+    color:white;
+ }
+ .loginContainer h1 {
+    font-size:20px;
+ }
+ #randomizer h1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+ }
+ #randomizer h1:hover{
+    cursor: pointer;
+ }
+ #randomizer button {
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background: #591c1e;
+    border: solid 5px black;
+    color:white;
+    margin: 30px;
+ }
+ .gameContainer {
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    border:black 5px solid;
+    background:#9b2527;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+.gameContainer button {
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background: #591c1e;
+    border: solid 5px black;
+    color:white;
+ }
+ .mediaContainer {
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    border:black 5px solid;
+    background:#9b2527;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+.mediaContainer button {
+    font-size:20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background: #591c1e;
+    border: solid 5px black;
+    color:white;
+ }
+ .mediaContainer img {
+    float:down;
+    transition: 0.2s;
+ }
+ .mediaContainer img:hover {
+    cursor: pointer;
+ }
+ a {
+     color:gray;
+     text-decoration: none;
+     text-decoration: solid;
+ }
+ p {
+     text-align: center;
+     color:white;
+     font-size:30px;
+     margin-top: 40%;
+ }

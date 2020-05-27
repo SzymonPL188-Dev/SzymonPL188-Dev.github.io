@@ -1,0 +1,1 @@
+document.getElementById("emIn").value = localStorage.getItem("email")
